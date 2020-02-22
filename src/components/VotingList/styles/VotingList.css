@@ -1,0 +1,16 @@
+
+.voting-list .sort {
+    color: var(--blue);
+}
+.voting-list .sortActive {
+    background-color: var(--light) !important;
+}
+
+.voting-list .button-group > button:nth-child(1) {
+    margin-right: 1px;
+}
+
+.voting-list .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}

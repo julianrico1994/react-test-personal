@@ -1,0 +1,16 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.app.container {
+    margin-top: 2.5vmin;
+    padding: 4vmin !important;
+    height: calc(100vh - 80px);
+}
+
+.app.container > .row {
+    flex: 1;
+    overflow-y: auto;
+}
