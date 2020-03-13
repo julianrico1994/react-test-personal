@@ -13,7 +13,7 @@ import VotingList from './components/VotingList/VotingList';
 import RegisterForm from './components/RegisterForm/RegisterForm';
 import YouAreIn from './components/RegisterForm/presentationalComponents/YouAreIn'
 import { NAME_PROYECT } from './components/helpers/constants'
-
+// otros cambios
 const App = () => {
     return (
         <Router>
@@ -43,3 +43,5 @@ const App = () => {
 }
 
 export default App;
+
+// Cambios de master para merge con test
